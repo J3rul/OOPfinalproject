@@ -28,12 +28,12 @@ public class BG extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         left_sideB = new javax.swing.JPanel();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
+        rbutton1 = new finalproject.Rbutton();
+        rbutton2 = new finalproject.Rbutton();
+        rbutton3 = new finalproject.Rbutton();
+        rbutton4 = new finalproject.Rbutton();
+        rbutton5 = new finalproject.Rbutton();
+        rbutton6 = new finalproject.Rbutton();
         right_sideB = new keeptoo.KGradientPanel();
         rightPanels = new javax.swing.JTabbedPane();
         p1 = new keeptoo.KGradientPanel();
@@ -46,8 +46,22 @@ public class BG extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         p5 = new keeptoo.KGradientPanel();
         jLabel6 = new javax.swing.JLabel();
-        p6 = new keeptoo.KGradientPanel();
-        jLabel7 = new javax.swing.JLabel();
+        UpLabel = new javax.swing.JPanel();
+        uplabel = new javax.swing.JTabbedPane();
+        lp1 = new javax.swing.JPanel();
+        jLabel13 = new javax.swing.JLabel();
+        lp2 = new javax.swing.JPanel();
+        jLabel12 = new javax.swing.JLabel();
+        lp3 = new javax.swing.JPanel();
+        jLabel11 = new javax.swing.JLabel();
+        lp4 = new javax.swing.JPanel();
+        jLabel10 = new javax.swing.JLabel();
+        lp5 = new javax.swing.JPanel();
+        jLabel9 = new javax.swing.JLabel();
+        lp6 = new javax.swing.JPanel();
+        jLabel8 = new javax.swing.JLabel();
+        charright = new keeptoo.KGradientPanel();
+        charleft = new keeptoo.KGradientPanel();
         LearnTrack = new javax.swing.JLabel();
         BG = new javax.swing.JLabel();
 
@@ -60,56 +74,104 @@ public class BG extends javax.swing.JFrame {
         left_sideB.setBackground(new java.awt.Color(0, 102, 102));
         left_sideB.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton1.setText("jButton1");
-        jButton1.setPreferredSize(new java.awt.Dimension(75, 25));
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        rbutton1.setBorder(null);
+        rbutton1.setForeground(new java.awt.Color(255, 255, 255));
+        rbutton1.setText("    Sign Out");
+        rbutton1.setBorderColor(new java.awt.Color(0, 102, 102));
+        rbutton1.setColor(new java.awt.Color(0, 102, 102));
+        rbutton1.setColorClick(new java.awt.Color(0, 102, 102));
+        rbutton1.setColorOver(new java.awt.Color(11, 135, 135));
+        rbutton1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        rbutton1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        rbutton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                rbutton1ActionPerformed(evt);
             }
         });
-        left_sideB.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 40, 170, 50));
+        left_sideB.add(rbutton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 500, 210, 100));
 
-        jButton2.setText("jButton2");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        rbutton2.setBorder(null);
+        rbutton2.setForeground(new java.awt.Color(255, 255, 255));
+        rbutton2.setText("    My Account   ");
+        rbutton2.setBorderColor(new java.awt.Color(0, 102, 102));
+        rbutton2.setColor(new java.awt.Color(0, 102, 102));
+        rbutton2.setColorClick(new java.awt.Color(0, 102, 102));
+        rbutton2.setColorOver(new java.awt.Color(11, 135, 135));
+        rbutton2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        rbutton2.setHideActionText(true);
+        rbutton2.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        rbutton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                rbutton2ActionPerformed(evt);
             }
         });
-        left_sideB.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 130, 170, 50));
+        left_sideB.add(rbutton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 100));
 
-        jButton3.setText("jButton3");
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
+        rbutton3.setBorder(null);
+        rbutton3.setForeground(new java.awt.Color(255, 255, 255));
+        rbutton3.setText("    Information");
+        rbutton3.setBorderColor(new java.awt.Color(0, 102, 102));
+        rbutton3.setColor(new java.awt.Color(0, 102, 102));
+        rbutton3.setColorClick(new java.awt.Color(0, 102, 102));
+        rbutton3.setColorOver(new java.awt.Color(11, 135, 135));
+        rbutton3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        rbutton3.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        rbutton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
+                rbutton3ActionPerformed(evt);
             }
         });
-        left_sideB.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 220, 170, 50));
+        left_sideB.add(rbutton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 100, 210, 100));
 
-        jButton4.setText("jButton4");
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
+        rbutton4.setBorder(null);
+        rbutton4.setForeground(new java.awt.Color(255, 255, 255));
+        rbutton4.setText("    Courses");
+        rbutton4.setBorderColor(new java.awt.Color(0, 102, 102));
+        rbutton4.setColor(new java.awt.Color(0, 102, 102));
+        rbutton4.setColorClick(new java.awt.Color(0, 102, 102));
+        rbutton4.setColorOver(new java.awt.Color(11, 135, 135));
+        rbutton4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        rbutton4.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        rbutton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
+                rbutton4ActionPerformed(evt);
             }
         });
-        left_sideB.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 310, 170, 50));
+        left_sideB.add(rbutton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 200, 210, 100));
 
-        jButton5.setText("jButton5");
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
+        rbutton5.setBorder(null);
+        rbutton5.setForeground(new java.awt.Color(255, 255, 255));
+        rbutton5.setText("    Grades");
+        rbutton5.setBorderColor(new java.awt.Color(0, 102, 102));
+        rbutton5.setColor(new java.awt.Color(0, 102, 102));
+        rbutton5.setColorClick(new java.awt.Color(0, 102, 102));
+        rbutton5.setColorOver(new java.awt.Color(11, 135, 135));
+        rbutton5.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        rbutton5.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        rbutton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
+                rbutton5ActionPerformed(evt);
             }
         });
-        left_sideB.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 400, 170, 50));
+        left_sideB.add(rbutton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 210, 100));
 
-        jButton6.setText("jButton6");
-        jButton6.addActionListener(new java.awt.event.ActionListener() {
+        rbutton6.setBorder(null);
+        rbutton6.setForeground(new java.awt.Color(255, 255, 255));
+        rbutton6.setText("    Marks sheet");
+        rbutton6.setBorderColor(new java.awt.Color(0, 102, 102));
+        rbutton6.setColor(new java.awt.Color(0, 102, 102));
+        rbutton6.setColorClick(new java.awt.Color(0, 102, 102));
+        rbutton6.setColorOver(new java.awt.Color(11, 135, 135));
+        rbutton6.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        rbutton6.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        rbutton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton6ActionPerformed(evt);
+                rbutton6ActionPerformed(evt);
             }
         });
-        left_sideB.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 490, 170, 50));
+        left_sideB.add(rbutton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 400, 210, 100));
 
-        jPanel1.add(left_sideB, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 110, 230, 610));
+        jPanel1.add(left_sideB, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 110, 210, 610));
 
         right_sideB.setkEndColor(new java.awt.Color(204, 255, 255));
         right_sideB.setkStartColor(new java.awt.Color(255, 255, 255));
@@ -165,19 +227,98 @@ public class BG extends javax.swing.JFrame {
 
         rightPanels.addTab("tab5", p5);
 
-        p6.setkEndColor(new java.awt.Color(204, 255, 255));
-        p6.setkStartColor(new java.awt.Color(255, 255, 255));
-        p6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        right_sideB.add(rightPanels, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -40, 1070, 650));
 
-        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        jLabel7.setText("Panel 6");
-        p6.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(162, 151, 141, 82));
+        jPanel1.add(right_sideB, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 110, 1070, 610));
 
-        rightPanels.addTab("tab6", p6);
+        UpLabel.setBackground(new java.awt.Color(0, 153, 153));
+        UpLabel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        right_sideB.add(rightPanels, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -40, 1050, 650));
+        lp1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.add(right_sideB, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 110, 1050, 610));
+        jLabel13.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
+        jLabel13.setText("My Account");
+        lp1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 10, 230, 100));
+
+        uplabel.addTab("tab2", lp1);
+
+        lp2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel12.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
+        jLabel12.setText("Information");
+        lp2.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 10, 300, 100));
+
+        uplabel.addTab("tab2", lp2);
+
+        lp3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel11.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
+        jLabel11.setText("Courses");
+        lp3.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 10, 250, 100));
+
+        uplabel.addTab("tab2", lp3);
+
+        lp4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel10.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
+        jLabel10.setText("Grades");
+        lp4.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 10, 260, 100));
+
+        uplabel.addTab("tab2", lp4);
+
+        lp5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel9.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
+        jLabel9.setText("Marks Sheet");
+        lp5.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 10, 240, 100));
+
+        uplabel.addTab("tab2", lp5);
+
+        lp6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel8.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
+        jLabel8.setText("My Account6");
+        lp6.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 230, 100));
+
+        uplabel.addTab("tab2", lp6);
+
+        UpLabel.add(uplabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -40, 870, 160));
+
+        jPanel1.add(UpLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 0, 860, 110));
+
+        charright.setkEndColor(new java.awt.Color(0, 204, 204));
+        charright.setkGradientFocus(350);
+        charright.setkStartColor(new java.awt.Color(255, 255, 255));
+
+        javax.swing.GroupLayout charrightLayout = new javax.swing.GroupLayout(charright);
+        charright.setLayout(charrightLayout);
+        charrightLayout.setHorizontalGroup(
+            charrightLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 50, Short.MAX_VALUE)
+        );
+        charrightLayout.setVerticalGroup(
+            charrightLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 130, Short.MAX_VALUE)
+        );
+
+        jPanel1.add(charright, new org.netbeans.lib.awtextra.AbsoluteConstraints(1230, 0, 50, 130));
+
+        charleft.setkEndColor(new java.awt.Color(0, 204, 204));
+        charleft.setkGradientFocus(350);
+        charleft.setkStartColor(new java.awt.Color(255, 255, 255));
+
+        javax.swing.GroupLayout charleftLayout = new javax.swing.GroupLayout(charleft);
+        charleft.setLayout(charleftLayout);
+        charleftLayout.setHorizontalGroup(
+            charleftLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 50, Short.MAX_VALUE)
+        );
+        charleftLayout.setVerticalGroup(
+            charleftLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 130, Short.MAX_VALUE)
+        );
+
+        jPanel1.add(charleft, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 0, 50, 130));
 
         LearnTrack.setFont(LearnTrack.getFont().deriveFont(LearnTrack.getFont().getStyle() | java.awt.Font.BOLD, 36));
         LearnTrack.setForeground(new java.awt.Color(255, 255, 255));
@@ -215,29 +356,36 @@ public class BG extends javax.swing.JFrame {
       
     }//GEN-LAST:event_LearnTrackMouseClicked
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void rbutton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rbutton1ActionPerformed
+        start n = new start();
+        setVisible(false);
+        n.setVisible(true);
+    }//GEN-LAST:event_rbutton1ActionPerformed
+
+    private void rbutton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rbutton2ActionPerformed
        rightPanels.setSelectedIndex(0);
-    }//GEN-LAST:event_jButton1ActionPerformed
+        uplabel.setSelectedIndex(0);
+    }//GEN-LAST:event_rbutton2ActionPerformed
 
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-       rightPanels.setSelectedIndex(5);
-    }//GEN-LAST:event_jButton6ActionPerformed
+    private void rbutton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rbutton3ActionPerformed
+        rightPanels.setSelectedIndex(1);
+        uplabel.setSelectedIndex(1);
+    }//GEN-LAST:event_rbutton3ActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-       rightPanels.setSelectedIndex(1);
-    }//GEN-LAST:event_jButton2ActionPerformed
+    private void rbutton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rbutton4ActionPerformed
+       rightPanels.setSelectedIndex(2);
+        uplabel.setSelectedIndex(2);
+    }//GEN-LAST:event_rbutton4ActionPerformed
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        rightPanels.setSelectedIndex(2);
-    }//GEN-LAST:event_jButton3ActionPerformed
-
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+    private void rbutton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rbutton5ActionPerformed
        rightPanels.setSelectedIndex(3);
-    }//GEN-LAST:event_jButton4ActionPerformed
+        uplabel.setSelectedIndex(3);
+    }//GEN-LAST:event_rbutton5ActionPerformed
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+    private void rbutton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rbutton6ActionPerformed
         rightPanels.setSelectedIndex(4);
-    }//GEN-LAST:event_jButton5ActionPerformed
+        uplabel.setSelectedIndex(4);
+    }//GEN-LAST:event_rbutton6ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -278,27 +426,41 @@ public class BG extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel BG;
     private javax.swing.JLabel LearnTrack;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
+    private javax.swing.JPanel UpLabel;
+    private keeptoo.KGradientPanel charleft;
+    private keeptoo.KGradientPanel charright;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel left_sideB;
+    private javax.swing.JPanel lp1;
+    private javax.swing.JPanel lp2;
+    private javax.swing.JPanel lp3;
+    private javax.swing.JPanel lp4;
+    private javax.swing.JPanel lp5;
+    private javax.swing.JPanel lp6;
     private keeptoo.KGradientPanel p1;
     private keeptoo.KGradientPanel p2;
     private keeptoo.KGradientPanel p3;
     private keeptoo.KGradientPanel p4;
     private keeptoo.KGradientPanel p5;
-    private keeptoo.KGradientPanel p6;
+    private finalproject.Rbutton rbutton1;
+    private finalproject.Rbutton rbutton2;
+    private finalproject.Rbutton rbutton3;
+    private finalproject.Rbutton rbutton4;
+    private finalproject.Rbutton rbutton5;
+    private finalproject.Rbutton rbutton6;
     private javax.swing.JTabbedPane rightPanels;
     private keeptoo.KGradientPanel right_sideB;
+    private javax.swing.JTabbedPane uplabel;
     // End of variables declaration//GEN-END:variables
 }
